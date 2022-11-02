@@ -1,1 +1,8 @@
-for hands on
+WAP to add unique charactor into string until string length become 10
+s1=""
+while len(s1)<10:
+      char=input ('Enter charactor: ")
+      if char not in s1:
+         s1=s1+char
+print(s1)
+print(len)(s1)
